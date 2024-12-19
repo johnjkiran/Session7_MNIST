@@ -8,6 +8,7 @@ from model import Model_1
 from tqdm import tqdm
 import datetime
 import os
+from torch.optim.lr_scheduler import StepLR
 
 try:
     from torchsummary import summary
